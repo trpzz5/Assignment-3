@@ -8,4 +8,4 @@ def factorial(n):
      result *=i
     return result
 number = int(input("Enter a number: "))
-print(f"The factorial of {number} is {factorial(number)}.")
+print('The factorial of', number,'is' ,factorial(number))
