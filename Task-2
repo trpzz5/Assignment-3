@@ -1,0 +1,9 @@
+#Task 2: Using the Math Module for Calculations
+import math
+number = float(input('Enter a number: '))
+sqrt =math.sqrt(number)
+natural_log =math.log(number)
+sine =math.sin(number)
+print('Square root of', number, 'is', math.sqrt(number))
+print('Sine of', number, 'is', math.sin(number))
+print('Logarithm of', number, 'is', math.log(number))
